@@ -1,3 +1,4 @@
+//queue cpp
 #include<iostream>
 using namespace std;
 int queue[10],n=10,front=-1,rear=-1;
