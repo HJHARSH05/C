@@ -1,4 +1,4 @@
-//linked list
+//linked list cpp
 /*#include<stdio.h>
 #include<stdlib.h>
 struct Node{
