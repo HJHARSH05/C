@@ -67,7 +67,12 @@ void traversing(struct node *ptr){
 	while(i!=index-1){
 		p=p->next;
 		i++;
-	}*/
+	}
+        ptr->next=NULL;
+	p->next=ptr;
+	return first;
+ }
+ */
 /*struct node *insertAtEnd(struct node *first,int data){
 	struct node *ptr=(struct node *)malloc(sizeof(struct node));
 	struct node *p=first;
